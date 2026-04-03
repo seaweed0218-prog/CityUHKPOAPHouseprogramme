@@ -1,23 +1,44 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>House Programme</title>
+  <title>CityUHK POA House Programme</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
   <style>
     html, body {
       margin: 0;
       height: 100%;
+      font-family: Arial, sans-serif;
     }
+
     iframe {
       width: 100%;
       height: 100%;
       border: none;
     }
+
+    .download-btn {
+      position: fixed;
+      top: 12px;
+      right: 12px;
+      z-index: 1000;
+      background: black;
+      color: white;
+      padding: 10px 14px;
+      text-decoration: none;
+      border-radius: 6px;
+      font-size: 14px;
+    }
   </style>
 </head>
 
 <body>
-  <iframe src="https://docs.google.com/gview?url=https://seaweed0218-prog.github.io/Test1/PO2026 AP booklet 03.04.2026 flattened-compressed.pdf&embedded=true"></iframe>
+
+  <!-- Download button -->
+  <a class="download-btn" href="dd.pdf">Download PDF</a>
+
+  <!-- Mobile-friendly PDF viewer -->
+  <iframe src="https://docs.google.com/gview?url=https://seaweed0218-prog.github.io/CityUHKPOAPHouseprogramme/dd.pdf&embedded=true"></iframe>
+
 </body>
 </html>
